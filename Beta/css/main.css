@@ -1348,7 +1348,7 @@ header .header-logo a {
   font-size: 1.5rem;
   line-height: 1.6;
   padding: 3.6rem 3rem;
-  height: 40%;
+  height: 45%;
   border-radius: 20px;
   width: 240px;
   position: fixed;
@@ -1484,9 +1484,9 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header .header-logo a {
-    width: 51px;
-    height: 24px;
-    background-size: 51px 24px;
+    width: 57px;
+    height: 57px;
+    background-size: 57px 57px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -1576,16 +1576,7 @@ header .header-logo a {
   line-height: 1.75;
   text-align: center;
 }
-.home-social-list::before {
-  display: block;
-  content: "";
-  width: 2px;
-  height: 42px;
-  background-color: rgba(255, 255, 255, 0.3);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 12px;
-}
+
 .home-social-list li {
   padding-left: 0;
 }
@@ -1802,7 +1793,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin: 0 auto 2.4rem;
 }
 #about .lead {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "montserrat-bold", sans-serif;
   font-size: 4rem;
   line-height: 1.8;
   color: #2e383f;
