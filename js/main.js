@@ -23,7 +23,7 @@
 	 * -------------------------------------------------- */
 	var ssPreloader = function() {
 
-		$(document).ready(function() {
+		$WIN.on('load', function() {
 
 			// force page scroll position to top at page refresh
 			$('html, body').animate({ scrollTop: 0 }, 'normal');
